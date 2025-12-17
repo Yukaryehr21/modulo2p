@@ -1,26 +1,85 @@
+* {
+  font-family: "Space Grotesk", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-fixed {
+  position: fixed;
+  background-color: black;
+  color: red;
+  height: 40px;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+}
+
+.banner-fixed p {
+  margin: 0;
+  font-weight: bold;
+}
+
+body {
+  margin-top: 50px;
+}
+
 .titulo-principal {
   color: blue;
-  font-family: 'Arial Black', Gadget, sans-serif;
+  font-family: "Orbitron", "Arial Black", Gadget, sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .subtitulo {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Orbitron", Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 25px;
   margin-bottom: 10px;
 }
 
-.subtitulo-1 { color: rgb(157, 0, 255); }
-.subtitulo-2 { color: rgb(255, 0, 247); }
-.subtitulo-3 { color: rgb(255, 0, 140); }
-.subtitulo-4 { color: rgb(61, 220, 33); }
-.subtitulo-5 { color: rgb(188, 52, 125); }
-.subtitulo-6 { color: rgb(129, 159, 10); }
+.subtitulo-sticky {
+  position: sticky;
+  top: 45px;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 10px;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo-1 {color: rgb(157, 0, 255);}
+.subtitulo-2 {color: rgb(255, 0, 247);}
+.subtitulo-3 {color: rgb(255, 0, 140);}
+.subtitulo-4 {color: rgb(61, 220, 33);}
+.subtitulo-5 {color: rgb(188, 52, 125);}
+.subtitulo-6 {color: rgb(129, 159, 10);}
+
+#titulo-galaxias {
+  background-color: #2d1b4e;
+  padding: 15px;
+  border-radius: 8px;
+  color: white !important;
+}
+
+.seccion-herencia {
+  color: #1a1a2e;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.elemento-especial {
+  color: #ff6b6b;
+  font-weight: bold;
+}
 
 .galaxia {
   color: rgb(152, 188, 52);
   font-style: italic;
+}
+
+.contenedor-galaxia {
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
 }
 
 .agujero-negro {
@@ -60,7 +119,7 @@
 }
 
 .btn-enviar {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 10px 18px;
   border: none;
@@ -81,14 +140,15 @@
 }
 
 p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Space Grotesk", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 15px;
   color: #222;
 }
 
-ul, ol {
+ul,
+ol {
   margin-left: 20px;
   margin-bottom: 15px;
 }
