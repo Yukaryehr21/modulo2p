@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="estilos.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El Misterio del Universo</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-  <h1 style="color: blue;">El Misterio del Universo</h1>
+  <h1 class="titulo-principal">El Misterio del Universo</h1>
   <p>Explorar el espacio es estudiar lo desconocido. El universo es inmenso, hermoso y lleno de secretos que aún estamos descubriendo.</p>
 
-  <h2 style="color: rgb(157, 0, 255);">¿Qué es el Universo?</h2>
+  <h2 class="subtitulo subtitulo-1">¿Qué es el Universo?</h2>
   <p>Es todo lo que existe: planetas, estrellas, galaxias, tiempo, espacio, materia y energía. El universo es infinito y en constante expansión.</p>
   
-  <h2 style="color: rgb(255, 0, 247);">Elementos Importantes del Universo</h2>
+  <h2 class="subtitulo subtitulo-2">Elementos Importantes del Universo</h2>
   <ul>
     <li>Galaxias</li>
     <li>Estrellas</li>
@@ -24,47 +24,48 @@
     <li>Agujeros negros</li>
   </ul>
 
-  <h2 style="color: rgb(255, 0, 140);">Galaxias Famosas</h2>
+  <h2 class="subtitulo subtitulo-3">Galaxias Famosas</h2>
   <ol>
     <li>Vía Láctea</li>
     <li>Andrómeda</li>
     <li>Galaxia del Sombrero</li>
   </ol>
 
-  <h3 style="color: rgb(152, 188, 52);">Vía Láctea</h3>
+  <h3 class="galaxia">Vía Láctea</h3>
   <p>Nuestra galaxia. Contiene el Sistema Solar y millones de estrellas.</p>
-  <p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/245B/production/_102670390_andromeda2.jpg.webp" alt="Imagen de la Via Lactea" title="Galaxia Via Lactea"></p>
+  <p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/245B/production/_102670390_andromeda2.jpg.webp" alt="Imagen de la Via Lactea" title="Galaxia Via Lactea" class="imagen"></p>
 
-  <h3>Agujeros Negros</h3>
+  <h3 class="agujero-negro">Agujeros Negros</h3>
   <p>Regiones del espacio con gravedad extrema. Nada puede escapar, ni siquiera la luz.</p>
-  <p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/1472/production/_107743250_agujero.jpg.webp" alt="Agujero Negro" title="Representación de un agujero negro"></p>
+  <p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/1472/production/_107743250_agujero.jpg.webp" alt="Agujero Negro" title="Representación de un agujero negro" class="imagen"></p>
 
-  <h2 style="color: rgb(61, 220, 33);">Curiosidades</h2>
+  <h2 class="subtitulo subtitulo-4">Curiosidades</h2>
   <ul>
     <li>La luz del Sol tarda 8 minutos en llegar a la Tierra.</li>
     <li>Se estima que hay más estrellas en el universo que granos de arena en la Tierra.</li>
     <li>La galaxia Andrómeda se acerca a la Vía Láctea poco a poco.</li>
   </ul>
 
-  <h2 style="color: rgb(188, 52, 125);">Aprende Más</h2>
+  <h2 class="subtitulo subtitulo-5">Aprende Más</h2>
   <p>
     Puedes explorar más sobre el universo aquí:<br>
-    <a href="https://ciencia.nasa.gov/universo/" target="_blank">La NASA</a><br>
-    <a href="https://stellarium.org/es/" target="_blank">Stellarium</a><br>
-    <a href=" https://psicologiaymente.com/cultura/curiosidades-universo" target="_blank">Datos curiosos</a>
-
-    <hr>
-    <h2 style="color: rgb(129, 159, 10);">¿Te gustaría aprender más sobre el Universo?</h2>
-    <p>Déjanos tus datos y una pregunta sobre este tema:</p>
-    <form action="https://sheetdb.io/api/v1/e5dl09tgz75d1" method="POST" >
-        Nombre: <input type="text" name="nombre" placeholder="Ingresa tu nombre"><br><br>
-        Correo electrónico: <input type="email" name="email" placeholder="ejemplo@gmail.com"><br><br>
-        Tu pregunta o comentario: <input type="comentario" name="comentario" placeholder="Escribe aqui"><br><br>
-        <input type="submit" value="Enviar">
-    </form> </hr>
-
+    <a href="https://ciencia.nasa.gov/universo/" target="_blank" class="enlace">La NASA</a><br>
+    <a href="https://stellarium.org/es/" target="_blank" class="enlace">Stellarium</a><br>
+    <a href="https://psicologiaymente.com/cultura/curiosidades-universo" target="_blank" class="enlace">Datos curiosos</a>
   </p>
-  <h6>Elaborado por Yukary Emiret Huerta Reyes. Noviembre 2025</h6>
+
+  <hr>
+
+  <h2 class="subtitulo subtitulo-6">¿Te gustaría aprender más sobre el Universo?</h2>
+  <p>Déjanos tus datos y una pregunta sobre este tema:</p>
+  <form action="https://sheetdb.io/api/v1/e5dl09tgz75d1" method="POST" class="formulario">
+      Nombre: <input type="text" name="nombre" placeholder="Ingresa tu nombre"><br><br>
+      Correo electrónico: <input type="email" name="email" placeholder="ejemplo@gmail.com"><br><br>
+      Tu pregunta o comentario: <input type="text" name="comentario" placeholder="Escribe aquí"><br><br>
+      <input type="submit" value="Enviar" class="btn-enviar">
+  </form>
+
+  <h6 class="pie">Elaborado por Yukary Emiret Huerta Reyes. Noviembre 2025</h6>
 
 </body>
 </html>
