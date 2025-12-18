@@ -24,7 +24,6 @@
 }
 
 body {
-  font-family: "Space Grotesk", sans-serif;
   margin-top: 50px;
   padding-bottom: 80px;
 }
@@ -52,14 +51,30 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.subtitulo-1 {color: rgb(157, 0, 255);}
-.subtitulo-2 {color: rgb(255, 0, 247);}
-.subtitulo-3 {color: rgb(255, 0, 140);}
-.subtitulo-4 {color: rgb(61, 220, 33);}
-.subtitulo-5 {color: rgb(188, 52, 125);}
-.subtitulo-6 {color: rgb(129, 159, 10);}
-.subtitulo-7 {color: rgb(33, 150, 243);}
-.subtitulo-8 {color: rgb(156, 39, 176);}
+.subtitulo-1 {
+color: rgb(157, 0, 255);
+}
+.subtitulo-2 {
+  color: rgb(255, 0, 247);
+}
+.subtitulo-3 {
+  color: rgb(255, 0, 140);
+}
+.subtitulo-4 {
+  color: rgb(61, 220, 33);
+}
+.subtitulo-5 {
+  color: rgb(188, 52, 125);
+}
+.subtitulo-6 {
+  color: rgb(129, 159, 10);
+}
+.subtitulo-7 {
+  color: rgb(33, 150, 243);
+}
+.subtitulo-8 {
+  color: rgb(156, 39, 176);
+}
 
 #titulo-galaxias {
   background-color: #2d1b4e;
@@ -140,7 +155,6 @@ body {
 }
 
 p {
-  font-family: "Space Grotesk", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -164,13 +178,12 @@ ol {
   justify-content: space-between;
 }
 
-.imagen{
+.imagen {
   margin: 20px auto;
   width: 300px;
   height: 200px;
   border-radius: 25px;
   display: block;
-
 }
 
 .nav-titulo {
@@ -197,7 +210,6 @@ ol {
 }
 
 .flex-parent.row {
-  display: flex;
   gap: 10px;
   justify-content: center;
   flex-flow: row wrap;
