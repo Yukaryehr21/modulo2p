@@ -1,9 +1,7 @@
-/* Google Fonts aplicadas globalmente - Ejemplo 1 */
 * {
   font-family: "Space Grotesk", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Elemento Fixed - Ejemplo 2 */
 .banner-fixed {
   position: fixed;
   background-color: #1a1a2e;
@@ -44,7 +42,6 @@ body {
   margin-bottom: 10px;
 }
 
-/* Position Sticky - Ejemplo 2 */
 .subtitulo-sticky {
   position: sticky;
   text-align: center;
@@ -64,7 +61,6 @@ body {
 .subtitulo-7 {color: rgb(33, 150, 243);}
 .subtitulo-8 {color: rgb(156, 39, 176);}
 
-/* Especificidad: ID > Clase - Ejemplo 1 */
 #titulo-galaxias {
   background-color: #2d1b4e;
   padding: 15px;
@@ -72,14 +68,12 @@ body {
   color: white !important;
 }
 
-/* Herencia - Ejemplo 1: Los elementos hijos heredan las propiedades */
 .seccion-herencia {
   color: #1a1a2e;
   font-weight: 500;
   line-height: 1.8;
 }
 
-/* Elemento especial que sobreescribe la herencia */
 .elemento-especial {
   color: #8091b4;
   font-weight: bold;
@@ -90,13 +84,12 @@ body {
   font-style: italic;
 }
 
-/* Un diseño limpio y sin complicaciones */
 .contenedor-galaxia {
   background-color: #f0f0f0;
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
-  border: 1px solid #ddd; /* Para que se vea el borde */
+  border: 1px solid #ddd;
 }
 
 .agujero-negro {
