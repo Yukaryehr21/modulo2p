@@ -220,6 +220,17 @@ ol {
   color: white;
   padding: 10px;
   text-align: center;
+  width: auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.planeta-card:hover {
+  transform: translateY(-5px);
+  background-color: #5eab64;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+.planeta-card h3 {
+  margin-top: 0;
 }
 
 .flex-parent.column {
@@ -234,7 +245,6 @@ ol {
   text-align: center;
 }
 
-/* Estilos para la barra de cookies */
 .cookies-checkbox {
   display: none;
 }
