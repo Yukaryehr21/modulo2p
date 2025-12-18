@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>El Misterio del Universo</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -13,25 +13,34 @@
   />
 </head>
 <body>
+
+  <!-- Elemento Fixed - Ejemplo 2 -->
   <div class="banner-fixed">
     <p class="elemento-especial">🌟 Explorando el Universo 🌟</p>
   </div>
 
-  <h1 class="titulo-principal">El Misterio del Universo</h1>
+  <h1 class="subtitulo subtitulo-sticky subtitulo-7">El Misterio del Universo</h1>
   <p>Explorar el espacio es estudiar lo desconocido. El universo es inmenso, hermoso y lleno de secretos que aún estamos descubriendo.</p>
-  <h2 class="subtitulo subtitulo-sticky subtitulo-1">¿Qué es el Universo?</h2>
+
+  <!-- Elemento Sticky - Ejemplo 2 -->
+  <h2 class="subtitulo subtitulo-1" >¿Qué es el Universo?</h2>
   <p>Es todo lo que existe: planetas, estrellas, galaxias, tiempo, espacio, materia y energía. El universo es infinito y en constante expansión.</p>
+  
+  <hr>
+
   <div class="seccion-herencia">
-    <h2 class="subtitulo subtitulo-2">Elementos Importantes del Universo</h2>
+    <h2 class="subtitulo subtitulo-2" id="elementos">Elementos Importantes del Universo</h2>
     <ul>
       <li>Galaxias</li>
       <li>Estrellas</li>
       <li>Planetas</li>
-      <li>Satélites naturales</li>
+      <li class="elemento-especial">Satélites naturales</li>
       <li>Constelaciones</li>
       <li>Agujeros negros</li>
     </ul>
   </div>
+
+  <!-- Especificidad ID > Clase > Elemento - Ejemplo 1 -->
   <h2 id="titulo-galaxias" class="subtitulo subtitulo-3">Galaxias Famosas</h2>
   <ol>
     <li>Vía Láctea</li>
@@ -39,8 +48,8 @@
     <li>Galaxia del Sombrero</li>
   </ol>
 
-  <div class="contenedor-galaxia">
-    <h3 class="galaxia">Vía Láctea</h3>
+  <!-- Position Relative y Absolute - Ejemplo 2 -->
+  <div class="contenedor-galaxia"> <h3 class="galaxia">Vía Láctea</h3>
     <p>Nuestra galaxia. Contiene el Sistema Solar y millones de estrellas.</p>
     <p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/245B/production/_102670390_andromeda2.jpg.webp" alt="Imagen de la Via Lactea" title="Galaxia Via Lactea" class="imagen"></p>
   </div>
@@ -56,7 +65,73 @@
     <li>La galaxia Andrómeda se acerca a la Vía Láctea poco a poco.</li>
   </ul>
 
-  <h2 class="subtitulo subtitulo-5">Aprende Más</h2>
+  <!-- Agregando navegación con flexbox + position fixed -->
+  <nav class="nav-planetas">
+    <div class="nav-titulo">Explora los Planetas</div>
+    <div class="nav-links">
+      <a href="#elementos" class="nav-link">Elementos</a>
+      <a href="#titulo-galaxias" class="nav-link">Galaxias</a>
+      <a href="#planetas" class="nav-link">Planetas</a>
+      <a href="#aprmas" class="nav-link">Aprende más</a>
+      <a>     </a>
+    </div>
+  </nav>
+<h2 class="subtitulo subtitulo-7"id="planetas">Los 8 Planetas del Sistema Solar</h2>
+
+<div class="flex-parent row">
+
+  <div class="planeta-card"><h3>Mercurio</h3>
+    <img src="https://th.bing.com/th/id/OIP.aBxMsTDueJ0OEYpqcoZb7wHaEK?w=259&h=180&c=7&r=0&o=7"
+         alt="Mercurio" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Venus</h3>
+    <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2024/03/venus-mariner-10-pia23791-fig2.jpg?w=1096&h=1096&fit=clip&crop=faces%2Cfocalpoint"
+         alt="Venus" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Tierra</h3>
+    <img src="https://th.bing.com/th/id/OIP.ubF7YVQkjJm-BnaBdXjrwQHaHa?w=180&h=180&c=7&r=0&o=7"
+         alt="Tierra" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Marte</h3>
+    <img src="https://i.blogs.es/8afff8/marte-noticia-706394/450_1000.webp"
+         alt="Marte" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Júpiter</h3>
+    <img src="https://news.ucr.edu/sites/default/files/2022-07/jupiter_rings_bright.jpg"
+         alt="Júpiter" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Saturno</h3>
+    <img src="https://starwalk.space/gallery/images/saturn-planet-guide/1920x1080.jpg"
+         alt="Saturno" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Urano</h3>
+    <img src="https://img.freepik.com/foto-gratis/esfera-abstracta-brilla-liquido-submarino-azul-generado-ia_188544-22051.jpg?semt=ais_hybrid&w=740&q=80"
+         alt="Urano" class="imagen">
+  </div>
+
+  <div class="planeta-card"><h3>Neptuno</h3>
+    <img src="https://www.uncuyo.edu.ar/ices/cache/neptuno_732_1296.jpg"
+         alt="Neptuno" class="imagen">
+  </div>
+
+</div>
+  <h2 class="subtitulo subtitulo-8">Fases de la Luna</h2>
+  <div class="flex-parent column">
+    <div class="fase-lunar">Luna Nueva</div>
+    <div class="fase-lunar">Cuarto Creciente</div>
+    <div class="fase-lunar">Luna Llena</div>
+    <div class="fase-lunar">Cuarto Menguante</div>
+  </div>
+
+  <hr>
+
+  <h2 class="subtitulo subtitulo-5" id="aprmas">Aprende Más</h2>
   <p>
     Puedes explorar más sobre el universo aquí:<br>
     <a href="https://ciencia.nasa.gov/universo/" target="_blank" class="enlace">La NASA</a><br>
@@ -65,7 +140,6 @@
   </p>
 
   <hr>
-
   <h2 class="subtitulo subtitulo-6">¿Te gustaría aprender más sobre el Universo?</h2>
   <p>Déjanos tus datos y una pregunta sobre este tema:</p>
   <form action="https://sheetdb.io/api/v1/e5dl09tgz75d1" method="POST" class="formulario">
